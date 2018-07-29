@@ -4,8 +4,8 @@
 The Python Script compares the population in OSM (place nodes and boundary relations) with Wikidata. Before you edit/add data in either database, please be sure you have some idea of the hierachical model of the region and how it is represented in OSM and Wikidata. 
 
 ### Requires
-Python 3.x with the following libraries
-[SPARQLWrapper](https://rdflib.github.io/sparqlwrapper/) 
+Python 3.x with the following libraries: 
+[SPARQLWrapper](https://rdflib.github.io/sparqlwrapper/)    
 [overpass](https://github.com/mvexel/overpass-api-python-wrapper)
 
 ### Output
