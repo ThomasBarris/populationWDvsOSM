@@ -1,7 +1,7 @@
 # Population in OSM and Wikidata
 
 ### Summary
-The Python Script compares the population in OSM (place nodes and boundary relations) with Wikidata. Before you edit/add data in either database, please be sure you have some idea of the hierachical model of the region and how it is represented in OSM and Wikidata. 
+The Python script compares the population in OSM (place nodes and boundary relations) with Wikidata. Before you edit/add data in either database, please be sure you have some idea of the hierarchical model of the region and how it is represented in OSM and Wikidata. 
 
 ### Requires
 Python 3.x with the following libraries: 
