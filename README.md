@@ -15,6 +15,7 @@ A file with the example output is [>>> here <<<](https://htmlpreview.github.com/
 
 ##### Terminal output
 ###### Place Node
+```
 > name       :  Göppingen
 > type       :  node
 > id         :  240084735
@@ -24,8 +25,10 @@ A file with the example output is [>>> here <<<](https://htmlpreview.github.com/
 > boundary   :  
 > WD Label   :  Göppingen
 > WD Pop     :  55846
+```
 
 ###### Boundary Relation
+```
 > name       :  Ottenbach
 > type       :  relation
 > id         :  2826029
@@ -35,3 +38,4 @@ A file with the example output is [>>> here <<<](https://htmlpreview.github.com/
 > boundary   :  administrative
 > WD Label   :  Ottenbach
 > WD Pop     :  2442
+```
