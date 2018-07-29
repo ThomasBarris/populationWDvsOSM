@@ -11,7 +11,7 @@ Python 3.x with the following libraries
 ### Output
 
 ##### Html Output
-A file with the example output is [here](https://github.com/ThomasBarris/populationWDvsOSM/blob/master/example.html)
+A file with the example output is [>>> here <<<](https://htmlpreview.github.com/?https://github.com/ThomasBarris/populationWDvsOSM/blob/master/example.html)
 
 ##### Terminal output
 ###### Place Node
