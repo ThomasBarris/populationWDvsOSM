@@ -4,9 +4,18 @@
 The Python script compares the population in OSM (place nodes and boundary relations) with Wikidata. Before you edit/add data in either database, please be sure you have some idea of the hierarchical model of the region and how it is represented in OSM and Wikidata. 
 
 ### Requires
-Python 3.x with the following libraries: 
+Python 3.x with the following libraries:    
 [SPARQLWrapper](https://rdflib.github.io/sparqlwrapper/)    
-[overpass](https://github.com/mvexel/overpass-api-python-wrapper)
+[overpass](https://github.com/mvexel/overpass-api-python-wrapper)  >= 0.6.0
+
+### Installation & first steps
+1. `git clone https://github.com/ThomasBarris/populationWDvsOSM.git` 
+2. `cd  populationWDvsOSM`.
+2. `pip install SPARQLWrapper`
+3. `pip install overpass`
+4. change location and name of the html output file in line 10 if necessary
+5. change to bounding box in line 13. A tool that helps you to find the bbox can be found [here](http://lxbarth.com/bbox/#0,0,0,0,2,17.999999999999986,0)
+6. `python3 WdOSMpop.py` 
 
 ### Output
 
