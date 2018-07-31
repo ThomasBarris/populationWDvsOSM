@@ -26,12 +26,12 @@ bbox = '48.6531,9.6343,48.7263,9.7638'
 # Sachsen: 51.6831408995 11.8723081683 50.1715419914 15.0377433357
 # Sachsen-Anhalt: 53.0421316033 10.5614755400 50.9379979829 13.1865600846
 # Schleswig-Holstein: 55.0573747014 7.8685145620 53.3590675115 11.3132037822
-# ThÃ¼ringen: 51.6490678544 9.8778443239 50.2042330625 12.6531964048
+# Thueringen: 51.6490678544 9.8778443239 50.2042330625 12.6531964048
 
 
 
 # the file where you can find the results
-html_file = "C:\\Users\\toba0\OneDrive\\Dokumente\\OpenStreetMap\\Projekte\\index.html"
+html_file = "index.html"
 
 # if you query larger areas you must be patient and might experience a timeout if you use the default value.
 api = overpass.API(timeout=600)
