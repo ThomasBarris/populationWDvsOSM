@@ -6,6 +6,9 @@ import overpass
 # lib to query for wikidata
 from SPARQLWrapper import SPARQLWrapper, JSON
 
+# the file where you can find the results
+html_file = "index.html"
+
 #define a bbox for the generation of the report
 bbox = '48.6531,9.6343,48.7263,9.7638'
 #  Tobias Wendorff Talk-DE about bboxes for german federal states
@@ -28,10 +31,6 @@ bbox = '48.6531,9.6343,48.7263,9.7638'
 # Schleswig-Holstein: 55.0573747014 7.8685145620 53.3590675115 11.3132037822
 # Thueringen: 51.6490678544 9.8778443239 50.2042330625 12.6531964048
 
-
-
-# the file where you can find the results
-html_file = "index.html"
 
 # if you query larger areas you must be patient and might experience a timeout if you use the default value.
 api = overpass.API(timeout=600)
