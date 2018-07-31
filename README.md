@@ -13,8 +13,8 @@ Python 3.x with the following libraries:
 2. `cd  populationWDvsOSM`.
 2. `pip install SPARQLWrapper`
 3. `pip install overpass`
-4. change location and name of the html output file in line 10 if necessary
-5. change to bounding box in line 13. A tool that helps you to find the bbox can be found [here](http://lxbarth.com/bbox/#0,0,0,0,2,17.999999999999986,0)
+4. change location and name of the html output file in line 10 in WdOSMpop.py if necessary
+5. change to bounding box in line 13 WdOSMpop.py. A tool that helps you to find the bbox can be found [here](http://lxbarth.com/bbox/#0,0,0,0,2,17.999999999999986,0)
 6. `python3 WdOSMpop.py` 
 
 ### Output
